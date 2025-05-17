@@ -2,11 +2,10 @@
 
 // change the count-el in the HTML to reflect the new count
 
-let count = 0
+let countElement = document.getElementById("count-el");
+let count = 0;
 
 function increment() {
-    count = count + 1
-    console.log(count)
+	count = count + 1;
+	countElement.innerText = count;
 }
-
-

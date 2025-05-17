@@ -1,4 +1,3 @@
-let username = 'per"
+let username = "Moath";
 
-console.log(username)
-
+console.log(username);
